@@ -1,7 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:sukoon/features/authentication/screens/Home/cancle_reshedule.dart';
 
-class UpcomingSection extends StatelessWidget {
+class UpcomingSection extends StatefulWidget {
   const UpcomingSection({super.key});
+
+  @override
+  State<UpcomingSection> createState() => _UpcomingSectionState();
+}
+
+class _UpcomingSectionState extends State<UpcomingSection> {
+
+  void cancleReshedule() {
+    showModalBottomSheet(
+      showDragHandle: false,
+      backgroundColor: Colors.white,
+      
+      context: context, builder: (context) => CancleReshedule());
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -96,7 +111,7 @@ class UpcomingSection extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Icon(Icons.more_vert), 
+                   IconButton(onPressed: ()=>cancleReshedule(), icon: const  Icon(Icons.more_vert), color: Colors.green,), 
                   ],
                 ),
                 const SizedBox(height: 10),
