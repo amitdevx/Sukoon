@@ -18,7 +18,7 @@ class _CancleResheduleState extends State<CancleReshedule> {
         children: [
           const Text('Cancel Appointment',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-          const SizedBox(height: 20),
+          const SizedBox(height: 10),
           const Text('Are you sure you want to cancel your appointment ?',
               style: TextStyle(
                 fontSize: 18,

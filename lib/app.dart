@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sukoon/features/authentication/screens/Home/home_screen.dart';
-// import 'package:sukoon/features/authentication/screens/Onboarding/onboarding.dart';
+// import 'package:sukoon/features/authentication/screens/Home/home_screen.dart';
+import 'package:sukoon/features/authentication/screens/Onboarding/onboarding.dart';
 import 'package:sukoon/utils/themes/theme.dart';
 
 class App extends StatelessWidget {
@@ -15,8 +15,8 @@ class App extends StatelessWidget {
         // themeMode: ThemeMode.system,
         theme: AppTheme.lightTheme,
         // darkTheme: AppTheme.darkTheme,
-        home: HomeScreen(),
-        // home: OnboardingScreen(),
+        // home: HomeScreen(),
+        home: OnboardingScreen(),
         );
   }
 }
