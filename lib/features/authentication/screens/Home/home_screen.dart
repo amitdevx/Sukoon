@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sukoon/common/widgets/bottom_navigation_bar.dart';
 import 'package:sukoon/common/widgets/custom_drawer.dart';
-import 'package:sukoon/features/authentication/screens/Home/booking_screen.dart';
+import 'package:sukoon/features/authentication/screens/Home/Booking%20Tab/booking_screen.dart';
+import 'package:sukoon/features/authentication/screens/Home/Chat%20screen/chat_screen.dart';
+import 'package:sukoon/features/authentication/screens/Home/community%20tab/community_screen.dart';
 import 'package:sukoon/features/authentication/screens/Home/home_content.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -22,9 +24,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final List<Widget> _screens = [
     HomeContent(),
-    Center(child: Text("Community Screen")),
+    CommunityScreen(),
     BookingScreen(),
-    Center(child: Text("Chats Screen")),
+    ChatScreen(),
   ];
 
   @override
@@ -50,6 +52,9 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         actions: [
           IconButton(
+            style: IconButton.styleFrom(
+              overlayColor: Colors.transparent,
+            ),
             onPressed: () {},
             icon: Padding(
               padding: const EdgeInsets.only(right: 8),

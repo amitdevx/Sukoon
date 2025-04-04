@@ -66,6 +66,7 @@ flutter:
   assets:
     - assets/images/on_boarding_images/
     - assets/images/pngs/
+    - assets/images/
     - assets/icons/svgs/onboarding1.svg
     - assets/icons/svgs/onboarding2.svg
     - assets/icons/svgs/onboarding3.svg

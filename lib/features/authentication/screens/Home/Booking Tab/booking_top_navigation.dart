@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sukoon/features/authentication/screens/Home/cancle_section.dart';
-import 'package:sukoon/features/authentication/screens/Home/complete_section.dart';
-import 'package:sukoon/features/authentication/screens/Home/upcomming_section.dart';
+import 'package:sukoon/features/authentication/screens/Home/Booking%20Tab/cancle_section.dart';
+import 'package:sukoon/features/authentication/screens/Home/Booking%20Tab/complete_section.dart';
+import 'package:sukoon/features/authentication/screens/Home/Booking%20Tab/upcomming_section.dart';
 
 class BookingTopNavigation extends StatefulWidget {
   const BookingTopNavigation({super.key});
@@ -11,7 +11,7 @@ class BookingTopNavigation extends StatefulWidget {
 }
 
 class _BookingTopNavigationState extends State<BookingTopNavigation> {
-  int _selectedIndex = 1; // Default 'Upcoming' ko select rakha hai
+  int _selectedIndex = 1; 
 
   @override
   Widget build(BuildContext context) {

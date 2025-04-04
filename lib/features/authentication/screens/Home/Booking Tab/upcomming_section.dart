@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sukoon/features/authentication/screens/Home/cancle_reshedule.dart';
+import 'package:sukoon/features/authentication/screens/Home/Booking%20Tab/cancle_reshedule.dart';
 
 class UpcomingSection extends StatefulWidget {
   const UpcomingSection({super.key});
@@ -9,13 +9,12 @@ class UpcomingSection extends StatefulWidget {
 }
 
 class _UpcomingSectionState extends State<UpcomingSection> {
-
   void cancleReshedule() {
     showModalBottomSheet(
-      showDragHandle: false,
-      backgroundColor: Colors.white,
-      
-      context: context, builder: (context) => CancleReshedule());
+        showDragHandle: false,
+        backgroundColor: Colors.white,
+        context: context,
+        builder: (context) => CancleReshedule());
   }
 
   @override
@@ -111,7 +110,11 @@ class _UpcomingSectionState extends State<UpcomingSection> {
                         ],
                       ),
                     ),
-                   IconButton(onPressed: ()=>cancleReshedule(), icon: const  Icon(Icons.more_vert), color: Colors.green,), 
+                    IconButton(
+                      onPressed: () => cancleReshedule(),
+                      icon: const Icon(Icons.more_vert),
+                      color: const Color.fromARGB(255, 18, 135, 96),
+                    ),
                   ],
                 ),
                 const SizedBox(height: 10),
