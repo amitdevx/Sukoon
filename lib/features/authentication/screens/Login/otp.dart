@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sukoon/features/authentication/screens/Add%20details/add_details.dart';
+import 'package:sukoon/features/dashboard/screens/Add%20details/add_details.dart';
 
 class OtpVerificationScreen extends StatefulWidget {
   final String phoneNumber;
@@ -160,7 +160,7 @@ class _OtpVerificationScreenState extends State<OtpVerificationScreen> {
                     width: 45,
                     // height: 55,
                     child: TextField(
-                      
+                      cursorColor: const Color.fromARGB(255, 18, 135, 96),
                       controller: _otpControllers[index],
                       focusNode: _focusNodes[index],
                       textAlign: TextAlign.center,

@@ -192,6 +192,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
                   Expanded(
                     child: TextField(
                       // controller: TextEditingController(text: phoneNumber),0
+                      cursorColor: const Color.fromARGB(255, 18, 135, 96),
                       style: TextStyle(fontSize: 18),
                       keyboardType: TextInputType.phone,
                       decoration: InputDecoration(

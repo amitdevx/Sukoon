@@ -1,0 +1,2 @@
+C:/Users/amit_/Downloads/sukoon/android/app/.cxx/RelWithDebInfo/516e334s/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/amit_/Downloads/sukoon/android/app/.cxx/RelWithDebInfo/516e334s/x86_64/CMakeFiles/rebuild_cache.dir

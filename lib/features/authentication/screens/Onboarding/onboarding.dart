@@ -27,7 +27,7 @@ class OnboardingScreen extends StatelessWidget {
                         "Skip the queues and Easily connect with\nExperts at your fingertips."),
                 OnboardinPage(
                     image: AImages.onboardingImage2,
-                    title: 'Specialis on mobile',
+                    title: 'Specialist on mobile',
                     subTitle:
                         "Skip the queues and Easily connect with top\ndoctors at your fingertips."),
                 OnboardinPage(

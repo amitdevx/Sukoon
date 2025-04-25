@@ -1,6 +1,6 @@
   import 'package:flutter/material.dart';
   import 'package:get/get.dart';
-  import 'package:sukoon/features/authentication/screens/Home/booking_detail.dart';
+  import 'package:sukoon/features/dashboard/screens/Home/booking_detail.dart';
 
   class TimeSlotSelector extends StatefulWidget {
     const TimeSlotSelector({super.key});
