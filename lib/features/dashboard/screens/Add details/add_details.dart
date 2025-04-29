@@ -15,12 +15,12 @@ class AddDetailsScreen extends StatelessWidget {
         title: const Text("Add Details", style: TextStyle(color: Colors.black)),
         backgroundColor: Colors.white,
         elevation: 0,
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back, color: Colors.black),
-          onPressed: () {
-            Get.back();
-          },
-        ),
+        // leading: IconButton(
+        //   icon: const Icon(Icons.arrow_back, color: Colors.black),
+        //   onPressed: () {
+        //     Get.back();
+        //   },
+        // ),
         
       ),
       body: Padding(

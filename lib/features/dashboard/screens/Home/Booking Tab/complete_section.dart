@@ -49,11 +49,14 @@ class CompleteSection extends StatelessWidget {
                         border: Border.all(
                             color: const Color.fromARGB(255, 219, 219, 219)),
                       ),
-                      child: Image.asset(
-                        booking["icon"]!,
-                        width: 50,
-                        height: 50,
-                        fit: BoxFit.cover,
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Image.asset(
+                          booking["icon"]!,
+                          width: 50,
+                          height: 50,
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
                     const SizedBox(width: 10),

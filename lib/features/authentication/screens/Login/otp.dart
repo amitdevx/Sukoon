@@ -89,7 +89,7 @@ class _OtpVerificationScreenState extends State<OtpVerificationScreen> {
 
     debugPrint("Entered OTP: $otp");
     if (otp == "123456") {
-    Get.to(() => AddDetailsScreen());
+    Get.offAll(() => AddDetailsScreen());
   } else {
     Get.snackbar("Error", "Invalid OTP", snackPosition: SnackPosition.BOTTOM);
   }
